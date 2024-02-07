@@ -107,6 +107,18 @@
                     </httpConnector>
                 </configuration>
                 <executions>
+                          <execution>
+                    <id>prepare-agent</id>
+                    <goals>
+                        <goal>prepare-agent</goal>
+                    </goals>
+                </execution>
+                <execution>
+                    <id>report</id>
+                    <goals>
+                        <goal>report</goal>
+                    </goals>
+                </execution>
                     <execution>
                         <id>start-jetty</id>
                         <phase>pre-integration-test</phase>
