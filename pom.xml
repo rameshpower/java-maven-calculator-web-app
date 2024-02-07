@@ -114,9 +114,9 @@
                     </goals>
                 </execution>
                 <execution>
-                    <id>run</id>
+                    <id>flyway-clean</id>
                     <goals>
-                        <goal>run</goal>
+                        <goal>flyway-migrate</goal>
                     </goals>
                 </execution>
                     <execution>
