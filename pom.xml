@@ -114,9 +114,9 @@
                     </goals>
                 </execution>
                 <execution>
-                    <id>report</id>
+                    <id>run</id>
                     <goals>
-                        <goal>report</goal>
+                        <goal>run</goal>
                     </goals>
                 </execution>
                     <execution>
