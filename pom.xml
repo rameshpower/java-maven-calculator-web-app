@@ -108,9 +108,9 @@
                 </configuration>
                 <executions>
                           <execution>
-                    <id>prepare-agent</id>
+                    <id>run</id>
                     <goals>
-                        <goal>prepare-agent</goal>
+                        <goal>run</goal>
                     </goals>
                 </execution>
                 <execution>
