@@ -107,18 +107,6 @@
                     </httpConnector>
                 </configuration>
                 <executions>
-                          <execution>
-                    <id>run</id>
-                    <goals>
-                        <goal>run</goal>
-                    </goals>
-                </execution>
-                <execution>
-                    <id>flyway-clean</id>
-                    <goals>
-                        <goal>flyway-migrate</goal>
-                    </goals>
-                </execution>
                     <execution>
                         <id>start-jetty</id>
                         <phase>pre-integration-test</phase>
@@ -216,11 +204,6 @@
                 <artifactId>maven-site-plugin</artifactId>
                 <version>3.7.1</version>
             </plugin> 
-          <plugin>
-             <groupId>org.codehaus.mojo</groupId>
-             <artifactId>sonar-maven-plugin</artifactId>
-             <version>3.0.2</version>
-         </plugin>
         </plugins>
     </build>
     
